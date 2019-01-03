@@ -1,5 +1,5 @@
 //tomagatchi
-let food = 1;
+
 
 
 class Pets {
@@ -11,10 +11,16 @@ class Pets {
 		this.age = 1;
 	}
 	feedPet(){
-		this.hunger +=1
+		this.hunger -=1
 	}
-
-	
+	petRest(){
+		this.sleepiness -=1
+	}
+	petAge(){
+		this.age +=1
+		this.sleepiness +=2
+		this.hunger +=2
+	}
 }
 
 
@@ -22,10 +28,9 @@ let pet1 = new Pets("Mack")
 
 
 
-pet1.feedPet()
-console.log(pet1)
-pet1.feedPet()
-console.log(pet1)
+
+
+
 
 
 
