@@ -1,0 +1,45 @@
+div{
+	position: absolute;
+    top: 25%;
+    left: 35%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+    font-family: 'Abel';
+
+}
+
+body{
+	border-top: solid black;
+	border-bottom: solid black;
+}
+
+
+
+header{
+	text-align: center;
+	font-family: 'Abel';
+	font-size: 50px;
+	padding: 1px;
+}
+
+button{
+	font-family: 'Abel';
+	font-size: 25px;
+}
+
+.btn-group button {
+  background-color: #4CAF50; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  position: relative;
+  top: 425px;
+  width: 106px;
+}
+
+
+
