@@ -15,11 +15,20 @@
 </div>
 <div id="test" class="btn-group" style="width:100%">
   <button id="feed" onclick="pet1.feedPet()">Feed</button>
-  <button id="play">Play</button>
-  <button id="sleep">Sleep</button>
+  <button id="play" onclick="pet1.petPlay()">Play</button>
+  <button id="sleep" onclick="pet1.petRest()">Sleep</button>
   <button id="light-switch">On/Off</button>
 </div>
-<div id="counter">10</div>
+<div>Hunger:<a id="counter"></a><br/>
+	Boredom:<a id="player"></a><br/>
+	Sleepiness:<a id="sleepy"></a><br/>
+
+
+
+
+
+</div>
+
 
 
     <script
