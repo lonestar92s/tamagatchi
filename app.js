@@ -46,7 +46,7 @@ let pet1 = new Pets("Mack");
 pet1.petAge()
 
 //timer function
-setInterval(function(){ pet1.petAge(); }, 1000);
+setInterval(function(){ pet1.petAge(); }, 10000);
 
 
 //jquery
