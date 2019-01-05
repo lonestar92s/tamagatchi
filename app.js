@@ -29,10 +29,14 @@ class Pets {
     }
     petAge() {
         this.age += 2
+        $('#age').replaceWith('<a id ="age">' + pet1.age + '</a>')
         this.sleepiness += 1
+        $('#sleepy').replaceWith('<a id ="sleepy">' +pet1.sleepiness + '</a>')
         this.hunger += 1
+        $('#counter').replaceWith('<a id ="counter">' +pet1.hunger + '</a>')
         this.boredom += 1
-        if(pet1.hunger >= 10)
+         $('#player').replaceWith('<a id ="player">' +pet1.boredom + '</a>')
+        if(pet1.hunger === 10 || pet1.sleepiness === 10 || pet1.boredom === 10)
 	alert(pet1.name + " has died.");
         
 
@@ -43,10 +47,10 @@ class Pets {
 
 let pet1 = new Pets("Mack");
 
-pet1.petAge()
+
 
 //timer function
-setInterval(function(){ pet1.petAge(); }, 10000);
+setInterval(function(){ pet1.petAge(); }, 5000);
 
 
 //jquery
