@@ -42,7 +42,7 @@ class Pets {
         this.boredom += 1
          $('#player').replaceWith('<a id ="player">' +pet1.boredom + '</a>')
         if(pet1.hunger === 11 || pet1.sleepiness === 11 || pet1.boredom === 11)
-	alert(pet1.name + " has died.");
+	alert("Your pet has died.");
         
 
 
@@ -50,7 +50,10 @@ class Pets {
 }
 
 //light switch
+let gameOn = true
+
 $('#light-switch').click(function() { $('.blackout').css("background-color","black" ); });
+
 
 //name input
 $('#add-name-button').click(function(){
