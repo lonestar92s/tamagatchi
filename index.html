@@ -9,8 +9,8 @@
 
 <body>
     
-    <header><b>Tamagotchi Game<b></header>
-<div><img src="https://i.pinimg.com/originals/44/07/58/440758b8e8622297f27e27806b9e66fe.png" width="420" height="420" border="2">    
+    <header>Tamagotchi Game</header>
+<div><img class="blackout" src="https://i.pinimg.com/originals/44/07/58/440758b8e8622297f27e27806b9e66fe.png" width="420" height="420" border="2">    
 
 </div>
 <div id="test" class="btn-group" style="width:100%">
@@ -19,7 +19,8 @@
   <button id="sleep" onclick="pet1.petRest()">Sleep</button>
   <button id="light-switch">On/Off</button>
 </div>
-<div>Hunger:<a id="counter">0</a><br/>
+<div>Name:<a id="name"></a><br/>
+	Hunger:<a id="counter">0</a><br/>
 	Boredom:<a id="player">0</a><br/>
 	Sleepiness:<a id="sleepy">0</a><br/>
 	Age:<a id="age">0</a>
@@ -29,6 +30,10 @@
 
 
 </div>
+<footer>
+<input type="text" id="add-name-input">
+        <button type="button" id="add-name-button">Name Pet</button>
+</footer>
 
 
 
